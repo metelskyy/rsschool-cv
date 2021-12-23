@@ -1,6 +1,170 @@
-dsfg
-dfs
-gsdf
-g
-d
-1
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+#wrapper {
+  width: 80%;
+  font-family: "Raleway";
+  color: #f8f0e4;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.body {
+  background-color: #1d262d;
+}
+.page-header {
+  position: fixed;
+  top: 0px;
+  left: 10%;
+  background-color: #1d262d;
+  z-index: 99;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-navigation {
+  padding: 20px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link {
+  text-decoration: none;
+  color: #f8f0e4;
+  font-family: "Raleway";
+}
+
+#about-me {
+  text-align: center;
+  padding: 90px 0 50px 0;
+}
+.about-me_text {
+  margin-bottom: 10px;
+}
+.my-photo {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: #f8f0e4 solid 3px;
+}
+.list-cantacts {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.name {
+  color: #e12179;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.about-me_text {
+  font-weight: 600;
+  position: relative;
+  font-size: 20px;
+}
+
+#education {
+  text-align: center;
+  padding: 50px 0;
+}
+.education-header {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.education-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.word-education {
+  color: #e12179;
+}
+.word-english {
+  color: #e12179;
+}
+.header_span-wods {
+  color: #e12179;
+}
+
+#skills {
+  padding: 50px 0;
+  text-align: center;
+}
+.skills-header {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.word-skills {
+  color: #e12179;
+}
+.list-skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+.list-skills_item::before {
+  content: "<";
+  position: absolute;
+  color: #e12179;
+  left: -13px;
+}
+.list-skills_item {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+}
+.list-skills_item::after {
+  content: "/>";
+  position: absolute;
+  color: #311996;
+}
+
+#code-example {
+  padding: 20px 0;
+}
+.code-example_header {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.word-code {
+  color: #e12179;
+}
+.code {
+  font-size: 17px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.text-footer {
+  font-size: 23px;
+}
+.list-footer {
+  width: 125px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.education-text {
+  font-weight: 600;
+}
