@@ -4,10 +4,9 @@
 
 ---
 
-- **Phone:** +375256100711
 - **E-mail:** youngkerik@gmail.com
 - **Telegram:** @metelskyy
-- **Discord:** metelsky #8710
+- **Github:** https://github.com/metelskyy
 
 ---
 
@@ -60,7 +59,7 @@ I haven't experience
 
 ## **Education:**
 
-School
+School education
 
 ---
 
