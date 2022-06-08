@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="body" id="wrapper">
+    <header class="page-header">
+      <nav class="header-nav">
+        <ul class="site-navigation">
+          <li class="site-navigation-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="nav-link" href="#education">Education & Languages</a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="site-navigation-item">
+            <a class="nav-link" href="#code-example">Code example</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+        <img
+          width="260"
+          height="230"
+          class="my-photo"
+          src="images/MyPhoto.jpg"
+          alt="My photo"
+        />
+        <ul class="list-cantacts">
+          <li class="list-cantacts-item">
+            <a class="list-contact_link" href="https://github.com/metelskyy"
+              ><img
+                class="list-img"
+                height="50"
+                width="50"
+                src="images/github.svg"
+                alt="Github"
+            /></a>
+          </li>
+          <li class="list-cantacts-item">
+            <a class="list-contact_link" href="mailto:youngkerik@gmail.com"
+              ><img height="50" width="50" src="images/mail.svg" alt="Gmail"
+            /></a>
+          </li>
+          <li class="list-cantacts-item">
+            <a class="list-contact_link" href="https://t.me/metelskyy"
+              ><img
+                height="50"
+                width="50"
+                src="images/telegram.svg"
+                alt="Telegram"
+            /></a>
+          </li>
+        </ul>
+        <h2 class="name">KIRILL LINNIK</h2>
+        <p class="about-me_text">Hi, i'm junior front-end developer</p>
+        <p class="about-me_text">
+          I wanna be a master of front-end development. I know how to work well
+          in a team, I strive for improvement, I take a responsible approach to
+          the tasks.
+        </p>
+      </section>
+      <section id="education">
+        <h2 class="education-header">
+          <span class="header_span-wods">EDUCATION</span> &
+          <span class="header_span-wods">LANGUAGES</span>
+        </h2>
+        <p class="education-text">
+          I have a school <span class="word-education">education</span>. Also
+          i'm stydying in Rolling Scope school
+        </p>
+        <p class="education-text">
+          I have level B1 in <span class="word-english">English</span>
+        </p>
+        <p class="education-text">
+          Also I speak Russian free and little bit Polish
+        </p>
+      </section>
+      <section id="skills">
+        <h2 class="skills-header">
+          HARD <span class="word-skills">SKILLS</span>
+        </h2>
+        <ul class="list-skills">
+          <li class="list-skills_item">HTML</li>
+          <li class="list-skills_item">CSS</li>
+          <li class="list-skills_item">Git</li>
+          <li class="list-skills_item">JS</li>
+          <li class="list-skills_item">TypeScript</li>
+        </ul>
+      </section>
+      <section id="code-example">
+        <h2 class="code-example_header">
+          <span class="word-code">CODE</span> EXPAMPLE
+        </h2>
+        <pre class="pre-code">
+          <code class="code">
+            const myFlat = (arr) => {
+              return arr.reduce((acc, item) => {
+                if (Array.isArray(item)) {
+                  return [...acc, ...myFlat(item)];
+                }
+                return [...acc, item];
+              }, []);
+            };
+          </code>
+        </pre>
+      </section>
+    </main>
+    <footer class="footer wrapper">
+      <p class="text-footer">© 2021 by Kirill Linnik</p>
+      <ul class="list-footer">
+        <li>
+          <a href="https://github.com/metelskyy">
+            <img height="29" src="images/github.svg" alt="Github" />
+          </a>
+        </li>
+        <li>
+          <a href="https://rs.school/js/">
+            <img width="80" height="29" src="images/rss.svg" alt="Rsschool" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
