@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 #wrapper {
   width: 80%;
   font-family: "Raleway";
@@ -32,8 +35,11 @@
   text-decoration: none;
   color: #f8f0e4;
   font-family: "Raleway";
+  transition: 0.5s;
 }
-
+.nav-link:hover {
+  color: #e12179;
+}
 #about-me {
   text-align: center;
   padding: 90px 0 50px 0;
@@ -132,7 +138,10 @@
   position: absolute;
   color: #311996;
 }
-
+.pre-code {
+  display: flex;
+  justify-content: center;
+}
 #code-example {
   padding: 20px 0;
 }
